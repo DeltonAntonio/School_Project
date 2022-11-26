@@ -1,0 +1,35 @@
+
+Interface de Usuário
+
+Na home 
+Barra de navegação
+home
+Cursos
+Contactos
+Sobre
+Certificado
+Requisitos
+
+banner-de-Introdução
+Por que escolheu a University?
+
+Requisitos pra entrar na University?
+
+Cursos Profissionais
+Saber Mais
+
+Como adquirir o Certificado?
+Mais Informações
+
+Sobre a University
+
+Contactos da University
+
+Onde está localizada a University?
+
+footer 
+
+
+
+
+

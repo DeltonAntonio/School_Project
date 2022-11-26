@@ -1,0 +1,253 @@
+:root{
+    --color-white:white;
+    --color-orange: rgb(211, 99, 8);
+    --color-gray:#e3e3e3;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgb(68, 67, 67);
+    padding-top: 5px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#logo a {
+    text-decoration: none;
+    color: green;
+    font-size: 26pt;
+    font-family: 'Lucida Sans','sans-serif';
+}
+nav{
+    position: relative;
+    top: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li{
+    margin-left: .8rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 12pt;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+main{
+    width: 100%;
+    background-image: url(../img/banner-principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8px;
+} 
+@keyframes animation {
+    0%{
+        right: 1200px;
+    }
+    
+    100%{
+        right: 0;
+    }
+}
+.text{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    font-size: 3rem;
+    text-align: justify;
+    color: white;
+    right: 1300px;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.btn{
+    position: relative;
+    top: -10px;
+    width: 300px;
+    height: 40px;
+    background-color: var(--color-orange);
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 300ms;
+    margin: 0 auto;
+    
+}
+.btn a{
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    color: var(--color-white);
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(175, 99, 27);
+}
+.container-choose h2, h3{
+    font-size: 2rem;
+    text-align: center;
+}
+.container-choose h3{
+    font-weight: normal;
+}
+.container-choose{
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.container-choose img{
+    width: 80%;
+    
+}
+.bg-color{
+    background-color: var(--color-gray);
+    padding-bottom: 10px;
+}
+.container-require{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.image-require{
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/Document.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.require{
+    padding-top: 20px;
+    padding-left: 1.5rem;
+}
+.container-cursos{
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+}
+.container-cursos h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.container-elements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card .title p{
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+    width: 300px;
+    margin-bottom: 30px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 1px;
+}
+.card:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.card img{
+    width: 100px;
+}
+.btn1{
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-orange);
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+.btn1 a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(167, 113, 14);
+}
+.container-certificate{
+    width: 100%;
+    display: flex;
+    
+}
+.certificate{
+    width: 50%;
+    padding: 10px;
+}
+.image-certificate{
+    padding: 28px;
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/Certificate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-contact{
+    width: 100%;
+    display: flex;
+    
+}
+.address{
+    width: 50%;
+    padding: 20px;
+    
+}
+.image-contact{
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/Contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: rgb(48, 47, 47);
+    color: var(--color-white);
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+.bg-color2{
+    background-color: var(--color-gray);
+}
+
+@media screen and (max-width: 1050px) {
+     .text{
+        font-size: 2rem;
+     }
+    nav{
+        display: none;
+    }
+    
+}
